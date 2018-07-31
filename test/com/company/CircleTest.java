@@ -7,7 +7,7 @@ import static org.junit.Assert.assertEquals;
 
 public class CircleTest {
 
-    public static final double DELTA = 0.0000001;
+    public static final double DELTA =Double.MIN_VALUE;
 
     @Test
     public void testAreaForRadius1() {
